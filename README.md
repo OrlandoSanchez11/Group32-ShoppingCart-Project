@@ -19,6 +19,9 @@ MySQL database integration for product storage and user management
 Requirements
 To run this application, ensure you have the following software installed:
 
+![Screenshot 2023-12-07 220612](https://github.com/OrlandoSanchez11/Group32-ShoppingCart-Project/assets/144269090/ec1a1523-27b3-428f-b21e-625d1533daf7)
+
+
 Java Development Kit (JDK)
 MySQL Server
 MySQL Workbench or any MySQL client tool
@@ -35,6 +38,8 @@ Important Notes
 Make sure to properly configure the database connection details in the application code to connect to your MySQL server.
 Ensure that your MySQL server is running before launching the application.
 For any issues or questions, feel free to contact the team members listed above.
+
+![Screenshot 2023-12-07 220624](https://github.com/OrlandoSanchez11/Group32-ShoppingCart-Project/assets/144269090/a0b2bc82-f75c-47b7-afc5-34d601fa20f0)
 
 Serever/Database:
 Username:root
