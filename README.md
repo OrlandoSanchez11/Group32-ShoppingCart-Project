@@ -23,7 +23,7 @@ MySQL Server
 MySQL Workbench or any MySQL client tool
 NetBeans IDE or any Java development environment
 Database Setup
-Open MySQL Workbench and execute the provided SQL script (script.sql) included in the application folder to set up the database schema and tables.
+Open MySQL Workbench and execute the provided SQL script (MySQLcode) included in the application folder to set up the database schema and tables.
 Modify the database connection details in the Java code (MyConnection.java) to match your MySQL server configurations (hostname, username, password, database name).
 Running the Application
 Open the project in NetBeans or your preferred Java IDE.
@@ -34,3 +34,7 @@ Important Notes
 Make sure to properly configure the database connection details in the application code to connect to your MySQL server.
 Ensure that your MySQL server is running before launching the application.
 For any issues or questions, feel free to contact the team members listed above.
+
+Serever/Database:
+Username:root
+Password:root
