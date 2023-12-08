@@ -1,0 +1,75 @@
+DROP DATABASE IF EXISTS online_shopping;
+
+-- Create online_shopping database
+CREATE DATABASE IF NOT EXISTS online_shopping;
+
+-- Use the online_shopping database
+USE online_shopping;
+
+-- Create the 'buyer' table
+CREATE TABLE buyer (
+    bid INT,
+    bname VARCHAR(255) PRIMARY KEY,
+    bpassword VARCHAR(255),
+    baddress VARCHAR(255),
+    email VARCHAR(255)
+);
+
+-- Create the 'seller' table
+CREATE TABLE seller (
+    sid INT,
+    sname VARCHAR(255) PRIMARY KEY,
+    spassword VARCHAR(255),
+    saddress VARCHAR(255),
+    email VARCHAR(255)
+);
+
+-- Create the 'cart_buyer' table
+CREATE TABLE cart (
+    pid INT,
+    pname VARCHAR(255),
+    pqty INT,
+    pprice FLOAT,
+    buyer_name VARCHAR(255)
+);
+
+-- Create the 'cart_seller' table
+CREATE TABLE product (
+    pid INT PRIMARY KEY,
+    pname VARCHAR(255),
+    pqty INT,
+    invoiceprice FLOAT,
+    sellprice FLOAT,
+    seller_name VARCHAR(255)
+);
+
+INSERT INTO product (pid, pname, pqty, invoiceprice, sellprice, seller_name) VALUES
+(1, 'Laptop', 50, 800.00, 1200.00, 'Electronics Emporium'),
+(2, 'Smartphone', 100, 500.00, 800.00, 'Mobile Junction'),
+(3, 'Headphones', 200, 50.00, 80.00, 'Audio World'),
+(4, 'Digital Camera', 30, 300.00, 500.00, 'Camera Corner'),
+(5, 'Fitness Tracker', 80, 40.00, 70.00, 'Health Hub');
+
+
+INSERT INTO buyer (bid, bname, bpassword, baddress, email) VALUES
+(1, 'John Doe', 'password1', '123 Main St', 'john.doe@example.com'),
+(2, 'Alice Smith', 'password2', '456 Oak Ave', 'alice.smith@example.com'),
+(3, 'Robert Johnson', 'password3', '789 Elm Blvd', 'robert.johnson@example.com'),
+(4, 'Emily White', 'password4', '321 Pine Ln', 'emily.white@example.com'),
+(5, 'David Brown', 'password5', '654 Cedar Dr', 'david.brown@example.com');
+
+
+INSERT INTO seller (sid, sname, spassword, saddress, email) VALUES
+(1, 'Tech Haven Electronics', 'securePass1', '123 Gadget Street', 'info@techhaven.com'),
+(2, 'Gizmo Galaxy', 'safePassword2', '789 Innovation Avenue', 'sales@gizmogalaxy.com'),
+(3, 'Harmony Audio Solutions', 'audio123', '456 Sound Boulevard', 'support@harmonyaudio.com'),
+(4, 'Captured Moments Photography', 'shutterPass', '654 Lens Lane', 'info@capturedmoments.com'),
+(5, 'Vitality Health Store', 'health123', '321 Wellness Drive', 'info@vitalityhealthstore.com');
+
+INSERT INTO cart (pid, pname, pqty, pprice, buyer_name) VALUES
+(1, 'Smartphone X', 50, 799.99, 'John Doe'),
+(2, 'Laptop Pro', 20, 1299.99, 'Alice Smith'),
+(3, 'Wireless Headphones', 100, 79.99, 'Robert Johnson'),
+(4, 'Digital Camera 2023', 30, 499.99, 'Emily White'),
+(5, 'Fitness Tracker Plus', 80, 49.99, 'David Brown');
+
