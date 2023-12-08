@@ -41,6 +41,8 @@ For any issues or questions, feel free to contact the team members listed above.
 
 ![Screenshot 2023-12-07 220624](https://github.com/OrlandoSanchez11/Group32-ShoppingCart-Project/assets/144269090/a0b2bc82-f75c-47b7-afc5-34d601fa20f0)
 
+![Screenshot 2023-12-07 220650](https://github.com/OrlandoSanchez11/Group32-ShoppingCart-Project/assets/144269090/a49e2774-c108-4f07-9434-40c395b4e2f5)
+
 Serever/Database:
 Username:root
 Password:root
