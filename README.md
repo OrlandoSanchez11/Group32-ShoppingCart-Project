@@ -4,6 +4,7 @@ Certainly! Here's an example of a README file you might create for your Java Swi
 Tech City - Online Shopping Cart Application
 Overview
 Welcome to Tech City, an online shopping cart application developed using Java Swing for the frontend and MySQL as the backend database. This application allows users to browse products, add items to their cart, and make purchases online.
+![Screenshot 2023-12-07 220716](https://github.com/OrlandoSanchez11/Group32-ShoppingCart-Project/assets/144269090/25c996e4-e4d9-4def-bf4e-84ef7f307038)
 
 Team Members
 Orlando Sanchez
