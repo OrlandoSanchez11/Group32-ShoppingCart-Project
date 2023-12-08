@@ -1,6 +1,3 @@
-
-Certainly! Here's an example of a README file you might create for your Java Swing app named "Tech City" powered by MySQL:
-
 Tech City - Online Shopping Cart Application
 Overview
 Welcome to Tech City, an online shopping cart application developed using Java Swing for the frontend and MySQL as the backend database. This application allows users to browse products, add items to their cart, 
